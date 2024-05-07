@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.min-cards {
+  min-height: 400px;
+}
+
+@media (max-width: 780px) {
+  .min-cards {
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 600px) {
+  .min-cards {
+    min-height: 450px;
+  }
+}
+
+@media (max-width: 460px) {
+  .min-cards {
+    min-height: 550px;
+  }
+}
+
+.card-image img {
+  height: 20vh;
+}
+
+@media (max-width: 780px) {
+  .card-image img{
+    height: 15vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-image img{
+    height: 10vh;
+  }
+}
+
+.markets-copyright {
+  border-top: 2px solid #fff;
+  padding-top: 5px;
+}
+
+.marketers-img  {
+  background-color: #605d5d;
+  margin: 5px;
+  border-radius: 2rem;
+}
+
+.marketers-img:hover  {
+  background-color: #ffffff;
+}
+
+footer {
+  border-top: 2px solid #fff;
+}
+
+.link-colums {
+  min-height: 150px;
+}
+
+.footer-container h2 {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.footer-container ul,
+.footer-container li {
+    style: none;
+    font-family:'Times New Roman', Times, serif;
+    color: #7e6f6f;
+}
+
+
+.footer-container li a:hover {
+  background-color: gray;
+  border-radius: 0.5rem;
+  padding: 2px;
+  color: #000;
+}
