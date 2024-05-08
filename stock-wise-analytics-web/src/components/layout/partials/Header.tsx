@@ -7,7 +7,7 @@ function Header() {
     const [isSubNavOpen, setIsSubNavOpen] = useState(false);
 
     return (
-        <header className="bg-black text-white p-4 hrader">
+        <header className="bg-black text-white p-4 header">
             <div className="container mx-auto flex justify-between items-center">
                 <Link href="/">
                     <div className="text-xl font-bold cursor-pointer">Stock Wise Analytics</div>
