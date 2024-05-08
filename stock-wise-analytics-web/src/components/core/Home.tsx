@@ -3,9 +3,9 @@
 const HomePage = () => {
     return (
         <>
-            <div className="w-full  flex justify-center items-center bg-black mb-0" style={{ height: "40vh" }}>
+            <div className="w-full  flex justify-center items-center bg-black mb-0" style={{ height: "70vh" }}>
                 <div className="text-white text-center lg:text-8xl md:text-7xl sm:text-7xl  text-5xl  font-bold font-serif" style={{ width: "50vW" }}>
-                    "By The Traders <span className="text-blue-700">For Traders </span>"
+                    "By The Traders For Traders"
                 </div>
             </div>
             {/* <div className="flex justify-center items-center  bg-black">
