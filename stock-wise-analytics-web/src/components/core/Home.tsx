@@ -3,16 +3,16 @@
 const HomePage = () => {
     return (
         <>
-            <div className="w-full  flex justify-center items-center bg-gray-700 mb-0" style={{ height: "40vh" }}>
+            <div className="w-full  flex justify-center items-center bg-black mb-0" style={{ height: "40vh" }}>
                 <div className="text-white text-center lg:text-8xl md:text-7xl sm:text-7xl  text-5xl  font-bold font-serif" style={{ width: "50vW" }}>
                     "By The Traders <span className="text-blue-700">For Traders </span>"
                 </div>
             </div>
-            {/* <div className="flex justify-center items-center  bg-gray-700">
+            {/* <div className="flex justify-center items-center  bg-black">
                 <img src="/images/cse.jpg" alt="CSE" className="sm:w-full md:w-fit lg:w-fit object-cover" style={{ height: "20vh" }} />
             </div> */}
             {/* <SwiperSet /> */}
-            <div className=" w-full flex justify-center items-center bg-gray-700" style={{ padding: "50px 50px" }}>
+            <div className=" w-full flex justify-center items-center bg-black" style={{ padding: "50px 50px" }}>
                 <div className="lg:w-1/2 border border-white rounded-xl shadow-lg m-2 lg:ml-4 min-cards flex flex-col justify-between">
                     <div className="text-white p-4">
                         <div className="card-image">

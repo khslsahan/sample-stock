@@ -7,7 +7,7 @@ function Header() {
     const [isSubNavOpen, setIsSubNavOpen] = useState(false);
 
     return (
-        <header className="bg-gray-800 text-white p-4">
+        <header className="bg-black text-white p-4">
             <div className="container mx-auto flex justify-between items-center">
                 <Link href="/">
                     <div className="text-xl font-bold cursor-pointer">Stock Wise Analytics</div>
@@ -40,7 +40,7 @@ function Header() {
                         </div>
                         {/* Sub-navigation menu */}
                         {isSubNavOpen && (
-                            <div className="absolute bg-gray-800 text-white mt-0 p-2 rounded-md shadow-md"
+                            <div className="absolute bg-black text-white mt-0 p-2 rounded-md shadow-md"
                                 style={{ minWidth: 'fit-content', width: '12rem' }}>
                                 <Link href="/about/team">
                                     <div className="cursor-pointer hover:text-gray-300 p-2">Trend Runner</div>
