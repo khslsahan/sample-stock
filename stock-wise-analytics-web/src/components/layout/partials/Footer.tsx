@@ -1,5 +1,5 @@
 // components/Footer.js
-
+ 
 const Footer = () => {
     return (
         <footer className="bottom-0 w-full bg-black text-white py-4">

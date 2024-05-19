@@ -1,0 +1,72 @@
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    width: 100%;
+}
+
+
+.markets-copyright {
+    border-top: 2px solid #fff;
+    padding-top: 5px;
+}
+
+.marketers-img {
+    background-color: #605d5d;
+    margin: 5px;
+    border-radius: 2rem;
+}
+
+.marketers-img:hover {
+    background-color: #ffffff;
+}
+
+footer {
+    border-top: 2px solid #fff;
+}
+
+.link-colums {
+    min-height: 150px;
+}
+
+.footer-container h2 {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.footer-container ul,
+.footer-container li {
+    font-family: 'Times New Roman', Times, serif;
+    color: #7e6f6f;
+}
+
+.link-colums a {
+    text-decoration: none !important;
+}
+
+.footer-container li a:hover {
+    background-color: gray;
+    border-radius: 0.5rem;
+    padding: 2px;
+    color: #000;
+}
+
+
+.card-image img {
+    height: 20vh;
+  }
+  
+  @media (max-width: 780px) {
+    .card-image img{
+      height: 15vh;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .card-image img{
+      height: 10vh;
+    }
+  }
+
+ 

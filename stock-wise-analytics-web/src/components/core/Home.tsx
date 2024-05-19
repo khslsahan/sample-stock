@@ -17,7 +17,7 @@ const HomePage = () => {
                     <div className="text-white p-4">
                         <div className="card-image">
                             <img src="/images/eye-bold.svg" alt="CSE" className="object-cover" />
-                        </div>
+                         </div>
                         <h1 className="lg:text-4xl text-2xl p-3 font-bold font-serif">Explore Our Trend Runner</h1>
                         <div>
                             "Welcome to TrendRunner, where cutting-edge analytics empower your portfolio decisions with Market trends and insights."
