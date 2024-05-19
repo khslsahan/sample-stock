@@ -67,7 +67,7 @@ const Footer = () => {
                     </div>
                     <div className="copyright col-lg-5 col-md-12 text-lg-end text-center">
                         <div>
-                            <p>
+                            <p className='mb-0'>
                                 Select market data provided by <a href="/" className="text-primary">CSE Data Services</a>
                             </p>
                             <span className="text-primary pt-0"> &copy;2024 stockWiseAnalytics</span>

@@ -6,7 +6,7 @@ function SectionOne() {
         <>
             <div className="bg-black">
                 <div style={{ height: '500px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <div className="d-flex container justify-content-center align-items-center text-white">
+                    <div className="d-flex  justify-content-center align-items-center text-white">
                         <div className="text-center ">
                             <h1>About Us</h1>
                             <div className='d-flex justify-content-center align-items-center'>
